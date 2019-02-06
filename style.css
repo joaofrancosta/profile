@@ -1,0 +1,105 @@
+body {
+  background-color: #EBEBEB;
+  font-family: roboto;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  color: #7d7d7d;
+}
+
+a:hover {
+  color: black;
+}
+
+.btn-red {
+  color: white;
+  background-color: #DD5555;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0px 140px;
+}
+
+.btn-red:hover {
+  background-color: #C61414;
+  color: white;
+}
+
+h1 {
+  font-size: 22px;
+  color: #DD5555;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2, h3 {
+  font-weight: 280;
+  text-align: center;
+}
+
+.card-text {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.links {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+#profile_pic {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 0px 70px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    max-width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    max-width: 300px;
+  }
+}
+
